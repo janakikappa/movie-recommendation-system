@@ -1,0 +1,21 @@
+
+# Secrets
+.env
+.env.*
+
+# Keep an example configuration file
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and generated models
+data/raw/
+models/*.pkl
+
+# Local development
+.streamlit/secrets.toml
+
